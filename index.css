@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+  background: #000;
+  margin: 0;
+  height: 100vh;
+  background: url('./bg.jpg') center;
+  background-size: cover;
+  backdrop-filter: blur(20px);
+  padding: 12px;
+  box-sizing: border-box;
+}
+.container{
+  height: calc(100% - 100px);
+  overflow: hidden;
+}
+ul{
+  color: #999;
+  list-style: none;
+  transition: all 0.3s;
+}
+li{
+  font-size: 16px;
+  line-height: 30px;
+  padding: 6px 0;
+}
+li.actived{
+  transform: scale(1.6);
+  color: #fff;
+}
